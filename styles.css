@@ -25,7 +25,7 @@ body {
   background-color: var(--gray);
 }
 
-.container {
+.card {
   max-width: 20rem;
   padding: 1rem;
   background-color: var(--white);
@@ -34,21 +34,21 @@ body {
   text-align: center;
 }
 
-.container img {
+.card-img {
   width: 100%;
   border-radius: 0.625rem;
 }
 
-.text-container {
+.card-content {
   padding: 0.75rem 1rem 1.5rem;
 }
 
-.text-container h2 {
+.card-content h2 {
   margin-top: 0.5rem;
   font-size: 1.375rem;
   color: var(--dark-blue);
 }
 
-.text-container p {
+.card-content p {
   margin-top: 1rem;
 }
